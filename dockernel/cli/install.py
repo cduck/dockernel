@@ -72,7 +72,8 @@ def install(args: Namespace) -> int:
                             interrupt_mode=InterruptMode.message)
 
     docker_client = docker.from_env()
-    kernel_id = image_digest(docker_client, args.image_name)
+    ###kernel_id = image_digest(docker_client, args.image_name)
+    kernel_id = args.image_name
     location = kernelspec_dir(store_path, kernel_id)
     install_kernelspec(location, kernelspec)
 
