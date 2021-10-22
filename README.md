@@ -1,3 +1,13 @@
+# Patched Dockernel
+
+Forked from [github.com/MrMino/dockernel](https://github.com/MrMino/dockernel/tree/a59bf474fb8f7dcae2035d36ab2dc273289ee9cc).
+
+Main change: The Jupyter kernel id is now set to the kernel name instead of a
+hash of the Docker image.
+
+Also includes hacks to workaround Docker user and permission issues.  Limits pid and memory count as well.
+
+
 # Dockernel
 
 Makes it possible to utilize arbitrary docker images as Jupyter kernels.
