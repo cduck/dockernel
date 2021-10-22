@@ -7,6 +7,8 @@ hash of the Docker image.
 
 Also includes hacks to workaround Docker user and permission issues.  Limits pid and memory count as well.
 
+Main project: [edx_notebook_grader](https://github.com/cduck/edx_notebook_grader)
+
 
 # Dockernel
 
