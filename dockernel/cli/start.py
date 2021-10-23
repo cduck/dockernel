@@ -96,7 +96,7 @@ def start(parsed_args: Namespace) -> int:
             stdout=True,
             stderr=True,
             mem_limit="1g",
-            pids_limit=20,
+            pids_limit=200,
             #network_disabled=True,
             name=rand_name,
         )
